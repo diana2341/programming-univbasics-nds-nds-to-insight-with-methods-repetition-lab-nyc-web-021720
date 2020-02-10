@@ -53,12 +53,14 @@ def total_gross(source)
 i= list_of_directors(source)[n]
 total += directors_totals(source)[i]
 n += 1
+ 
     end
     total
 
   end
-## i=directors_totals(source)
-#i.values.sum why do i have to use list names if i just have to add all of the values of the hash 
+# i=directors_totals(source)
+# i.values.sum
+# why do i have to use list names if i just have to #add all of the values of the hash
 
 
 
